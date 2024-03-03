@@ -25,7 +25,7 @@ else:
 assistant_id = os.environ.get("ASSISTANT_ID")
 instructions = os.environ.get("RUN_INSTRUCTIONS", "")
 assistant_title = os.environ.get("ASSISTANT_TITLE", "Assistants API UI")
-enabled_file_upload_message = os.environ.get("ENABLED_FILE_UPLOAD_MESSAGE", "Upload a file")
+enabled_file_upload_message = os.environ.get("ENABLED_FILE_UPLOAD_MESSAGE", "")
 
 
 def create_thread(content, file):
